@@ -1,0 +1,52 @@
+.Prestations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    padding: 10px 0;
+}
+
+.Prestations img {
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 150px;
+}
+
+.Prestations #title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Reserver-button {
+    cursor: pointer;
+    border: none;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    border-radius: 20px;
+}
+
+.Reserver-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #af6bcc;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.title-of-prestation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+body{
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #af6bcc;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: static;
+}
+
+.head button {
+    background-color: #af6bcc;
+    border: none;
+}
+
+.head button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.head .logo {
+
+    max-height: 60px;
+    border-radius: 50%;
+}
+
+.head ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head a {
+    color: black;
+    text-decoration: none;
+}
+
+.head li:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.head .User-Logo {
+    max-width: 35px;
+    padding: 0 0 0 0;
+}
+/* A dynamiser plus tard avec du JavaScript en ajoutant des AddEventListener onClick 
+.head a:visited {
+    text-decoration: underline;
+}
+*/
+

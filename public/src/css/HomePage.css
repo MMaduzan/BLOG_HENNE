@@ -1,0 +1,35 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+    gap: 15px;
+}
+
+.logo-img {
+    border-radius:50%;
+    margin-top: 10px 10px 10px 10px;
+}
+.logo-img:hover{
+    cursor: pointer;
+}
+.See-More-Button{
+    cursor: pointer;
+    border: none;
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    border-radius: 20px;
+    margin: 100px 10px 10px 10px;
+    
+
+}
+.See-More-Button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color:#af6bcc;
+ 
+}
+.Story-telling p{
+ font-size:larger;
+
+
+}
