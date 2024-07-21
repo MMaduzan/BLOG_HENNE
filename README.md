@@ -1,2 +1,1 @@
-# BLOG-HENNE
 # BLOG_HENNE
