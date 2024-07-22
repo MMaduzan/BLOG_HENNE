@@ -5,7 +5,7 @@ body{
 
 header {
     padding: 10px 20px;
-    background-color: #af6bcc;
+    background-color: #E6E6FA;
 }
 
 .head {
@@ -17,7 +17,7 @@ header {
 }
 
 .head button {
-    background-color: #af6bcc;
+    background-color: #E6E6FA;
     border: none;
 }
 
@@ -62,4 +62,29 @@ header {
     text-decoration: underline;
 }
 */
+
+footer {
+    background-color:#E6E6FA;
+    padding: 10px 10px 10px 70px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 20px;
+}
+
+footer h1{
+    font-size: 20px;
+    text-align: center;
+}
+.social-media-div img {
+    width: 50px;
+    
+
+}
+
+.social-media-div img:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
