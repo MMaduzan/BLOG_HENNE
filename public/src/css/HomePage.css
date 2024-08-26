@@ -33,3 +33,21 @@
 
 
 }
+@media (375px <= width <= 667px) {
+    .HomePage {
+        display: inline-block
+    }
+
+    .logo-img {
+        max-width: 250px;
+    }
+    .logo-homepage {
+        padding-left: 50px;
+        padding-bottom: 5px;
+    }
+
+
+
+
+
+}

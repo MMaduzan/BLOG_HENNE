@@ -56,6 +56,7 @@ header {
 .head .User-Logo {
     max-width: 35px;
     padding: 0 0 0 0;
+    
 }
 /* A dynamiser plus tard avec du JavaScript en ajoutant des AddEventListener onClick 
 .head a:visited {
@@ -87,4 +88,24 @@ footer h1{
     cursor: pointer;
 }
 
+@media (375px <= width <= 667px) {
+    header{ 
+        padding: 5px 0px 0px 0px;
+
+    }
+    .head a,li {
+        max-width: 20px;
+        
+    }
+    .head ul {
+     gap: 36px;
+    
+    }
+
+    .head .User-Logo {
+        max-width: 30px;
+    }
+
+
+}
 
