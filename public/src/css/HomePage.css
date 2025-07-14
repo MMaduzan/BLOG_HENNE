@@ -1,7 +1,7 @@
 .HomePage {
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: #f1f1f1;
     padding: 10px 10px 10px 10px;
     gap: 15px;
 }
